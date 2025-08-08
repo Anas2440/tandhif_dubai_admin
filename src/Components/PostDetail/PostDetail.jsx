@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Logo from "../../assets/images/Mountain.jpg";
+// import Logo from "../../assets/images/Mountain.jpg";
 import { useLocation, useNavigate } from "react-router-dom";
 import Profile from "../../assets/images/profile.png";
 import { toast } from "react-toastify";

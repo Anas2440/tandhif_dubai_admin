@@ -148,6 +148,7 @@ const Index = () => {
                     ) : null}
                   </div>
                   <button
+                  onClick={()=>navigate("/dashboard")}
                     type="submit"
                     className="btn_primry"
                     style={{ textAlign: "center", marginTop: "1.5rem" }}

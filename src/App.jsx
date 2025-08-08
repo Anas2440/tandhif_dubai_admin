@@ -7,8 +7,8 @@ import ForgotPassword from "./Components/ForgotPassword/ForgotPassword";
 import Sidebar from "./Components/Sidebar/Sidebar";
 import DashBoard from "./Components/DashBoard/DashBoard";
 import Users from "./Components/Users/Users";
-import Saved from "./Components/Saved/Saved";
-import Setting from "./Components/Setting/Setting";
+// import Saved from "./Components/Saved/Saved";
+// import Setting from "./Components/Setting/Setting";
 import { Helmet } from "react-helmet";
 import PostDetail from "./Components/PostDetail/PostDetail";
 import Profile from "./Components/Profile/Profile";
@@ -21,7 +21,7 @@ import ClientList from "./Components/Clients/ClientsList";
 import UserList from "./Components/UserList/UserList";
 // import Cms from "./Components/CMS/Cms";
 import Providers from "../src/ReduxStore/Providers";
-import UserDetail from "./Components/UserDetail/UserDetail";
+// import UserDetail from "./Components/UserDetail/UserDetail";
 // import AddAdmin from "./Components/AddAdmin/AddAdmin";
 // import EditNewAdmin from "./Components/EditNewAdmin/EditNewAdmin";
 
@@ -192,7 +192,7 @@ function App({ children }) {
               }
             ></Route>
           
-            <Route
+            {/* <Route
               path="/UserDetail"
               element={
                 <>
@@ -211,7 +211,7 @@ function App({ children }) {
                   </Helmet>
                 </>
               }
-            ></Route>
+            ></Route> */}
             <Route
               path="/ChangePassword"
               element={
@@ -316,7 +316,7 @@ function App({ children }) {
             ></Route>
        
 
-            <Route
+            {/* <Route
               path="/Saved"
               element={
                 <div
@@ -329,8 +329,8 @@ function App({ children }) {
                   <Saved />
                 </div>
               }
-            />
-            <Route
+            /> */}
+            {/* <Route
               path="/Setting"
               element={
                 <div
@@ -343,7 +343,7 @@ function App({ children }) {
                   <Setting />
                 </div>
               }
-            />
+            /> */}
           </Routes>
         </GlobalContextProvider>
       </Providers>
