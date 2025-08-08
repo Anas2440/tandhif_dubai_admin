@@ -1,0 +1,59 @@
+.jodit-container:not(.jodit_inline) .jodit-workplace {
+    min-height: 500px !important;
+}
+
+.jodit-container:not(.jodit_inline) {
+    min-height: 500px !important;
+    min-width: 500px !important;
+}
+
+.Main-TermsCondition-div {
+
+    margin-top: 7rem;
+    width: 100%;
+    margin-left: 3rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.updateEditor-main-Update {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.buttons-tac-form-control-Tearms {
+    background: rgb(230, 225, 225);
+    background: linear-gradient(90deg, #a4a5d9, #c5c6ec 46%, #b3f2e7);
+    font-size: 17px;
+    font-weight: 700;
+    color: black;
+    width: 300px;
+    height: 50px;
+    margin-top: 2rem;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 435px) {
+    .jodit-container:not(.jodit_inline) {
+        min-width: 0px !important;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    .jodit-container:not(.jodit_inline) {
+        min-width: 0px !important;
+    }
+}
+
+@media screen and (max-width: 391px) {
+    .jodit-container:not(.jodit_inline) {
+        min-width: 0px !important;
+    }
+}

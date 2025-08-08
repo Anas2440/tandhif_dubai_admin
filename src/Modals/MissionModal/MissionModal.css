@@ -1,0 +1,154 @@
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-container {
+  background: white;
+  border-radius: 20px;
+  padding: 30px;
+  width: 600px;
+  max-width: 90%;
+  position: relative;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  font-family: 'Inter', sans-serif;
+}
+
+.modal-container h2 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #0b2447;
+  margin-bottom: 20px;
+
+}
+
+.modal-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.text-box {
+  background: #dcdcdc;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 15px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.price-input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Main-time {
+  width: 100%;
+}
+
+.time-inputs {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.modal-actions {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.confirm-button {
+  background-color: #f6cc4f; /* hex version of rgb(246, 204, 79) */
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  width: 300px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.confirm-button:hover {
+  background: #67d16e;
+}
+
+.modal-icon-and-hed {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.close-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.modal-container{
+  height: 80%;
+  overflow-y: auto;
+}
+
+@media (max-width: 480px) {
+  .calendar-wrapper{
+    overflow: scroll;
+  }
+  .Main-div-in-today{
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .calendar-legend{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .modal-container {
+    width: 95%;
+    padding: 20px;
+    border-radius: 15px;
+    height: 70%;
+    overflow-y: scroll;
+  }
+
+  
+
+  .modal-container h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+
+  .confirm-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  .time-inputs {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .text-box {
+    font-size: 13px;
+    padding: 8px 12px;
+  }
+
+  .close-button {
+    top: 15px;
+    right: 15px;
+    font-size: 22px;
+  }
+}

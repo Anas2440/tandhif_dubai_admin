@@ -1,0 +1,99 @@
+.client-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .form-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-section h2 {
+    color: #0d1b4c;
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .form-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #dcdcdc;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 60px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .validate-button {
+    background-color: rgb(246, 204, 79);
+    width: 300px;
+
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  .Main-Valider-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .add-button {
+    background-color: #f0f0f0;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .address-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0d1b4c;
+    margin-left: 15px;
+  }
+  
+  .Main-div-lebale{
+    display: flex;
+    gap: 0.2rem; 
+    flex-direction: column;
+    width: 100%;
+}
+.Main-leb-Le{
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.principale-ad{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@media (max-width: 480px) {
+
+
+    .form-row {
+        display: flex;
+        gap: 10px;
+        flex-direction: column;
+        margin-bottom: 15px;
+      }
+}

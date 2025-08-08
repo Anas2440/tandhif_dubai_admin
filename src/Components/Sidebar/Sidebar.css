@@ -1,0 +1,299 @@
+.sidebar {
+
+  /* background: linear-gradient(0deg, #FFB612 30%, #FFB612 90%, #FFB612 100%); */
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgb(28, 42, 69) 0px 30px 60px -30px; */
+  color: #fff;
+  height: 188vh;
+  overflow-y: auto;
+  z-index: 1100000;
+  position: fixed;
+  width: 250px;
+  padding: 0.5rem;
+}
+
+.First-Show-logo-slider {
+  height: 60px;
+  width: 60px;
+  /* object-fit: cover; */
+}
+
+.Logo_img_name_divv {
+  display: flex;
+  align-items: center;
+  /* padding: 0.5rem; */
+  gap: 1rem;
+  /* background-color: #a7aeb6;
+   */
+
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  height: 75px;
+  color: #000;
+}
+
+.logo {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.links {
+  text-decoration: none;
+  display: flex;
+  color: white;
+  /* align-items: center; */
+  gap: 10px;
+  margin-bottom: 0.5rem;
+  padding: 10px;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.app.dark .bars {
+  cursor: pointer;
+  color: white;
+}
+
+.app.light .bars {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+}
+a {
+  text-decoration: none;
+}
+
+.links:hover {
+  /* border-right: 4px solid white; */
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  /* margin: 0.2rem; */
+  border-radius: 8px;
+}
+
+.app.dark .table_main_Divv {
+  margin-top: 4rem;
+  /* background-color: #3a3939; */
+  width: 100%;
+  /* padding-left: 1rem; */
+  height: 100%;
+  min-height: 100vh;
+  padding: 2.5rem;
+  /* background-image: url("/src//assets/images/FirstShowBackground.png"); */
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+}
+
+
+
+
+
+.search input {
+  border: none;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: rgb(238, 238, 238);
+}
+
+.link_text {
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* .main-container {
+  display: flex;
+} */
+
+/* Sidebar.css */
+.app.light .sidebar {
+  background: white;
+  color: black;
+  box-shadow: #000000 0px 20px 20px -30px, #000000 0px 20px 20px -30px, #000000 0px -2px 6px 0px inset;
+}
+
+.main-container {
+  display: flex;
+}
+
+.app.dark .sidebar {
+  /* background: black; */
+  color: white; 
+  background: #090c12;
+  background: linear-gradient(90deg,rgb(16, 19, 28) 0%, #161c29 50%, #141a26 100%);
+  box-shadow: #ffffff 0px 20px 20px -30px, #000000 0px 20px 20px -30px, #000000 0px -2px 6px 0px inset;
+}
+
+.app.light .links {
+  color: black;
+}
+
+.app.dark .links {
+  color: white;
+}
+
+.app.light .links:hover,
+.app.light .active {
+  background-color: #000;
+  color: white;
+}
+
+.app.dark .links:hover,
+.app.dark .active {
+  background-color: rgb(246, 204, 79);
+  color: black;
+}
+
+/* Keep rest of your styles same, just wrap them in these theme selectors if needed */
+
+.sidebar {
+  height: 188vh;
+  overflow-y: auto;
+  z-index: 1100000;
+  position: fixed;
+  width: 250px;
+  padding: 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.theme-toggle-btn {
+  background: transparent;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.links {
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 0.5rem;
+  padding: 10px;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+  border-radius: 8px;
+}
+
+.link_text {
+  white-space: nowrap;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.top_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  height: 75px;
+}
+.Icon-slider{
+  height: 35px;
+  width: 35px;
+}
+.First-Show-logo-slider {
+  height: 25px;
+  width: 80px;
+}
+
+
+/* More responsive tweaks here if needed */
+
+
+
+.active {
+  /* border-right: 4px solid black; */
+  /* margin: 1rem; */
+  box-shadow: #000000 0px 20px 20px -30px, #000000 0px 20px 20px -30px,
+    #000000 0px -2px 6px 0px inset;
+  color: black;
+  border-radius: 8px;
+  background-color: white;
+}
+
+/* main {
+  padding: 20px;
+}
+
+*/
+.title {
+  font-size: 30px;
+}
+
+.menu-item {
+  display: flex;
+  gap: 10px;
+  /* align-items: center; */
+}
+
+.menu {
+  cursor: pointer;
+  display: flex;
+  color: #fff;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 10px;
+  transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.menu_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu_container .links {
+  padding-left: 20px;
+  /* border-bottom: #fff 0.5px solid; */
+}
+
+.i-t-a {
+  outline: none;
+  width: 280px;
+  height: 30px;
+  border: none;
+}
+
+.svg-p-div {
+  background: #ffffff;
+  outline: none;
+  border: 1px solid #d1d1d1 !important;
+  border-radius: 4px;
+  width: 343px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 8px;
+}
+
+.table_imgg_profile {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 884px) {
+  .sidebar {
+    height: 350vh;
+  }
+
+  .main-container {
+    position: fixed;
+    z-index: 11;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .top_section {
+    /* display: none; */
+  }
+
+  .routes {
+    margin-top: 0rem;
+  }
+}

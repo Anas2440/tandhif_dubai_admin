@@ -1,0 +1,285 @@
+.Setting-drop-down-btns {
+  width: 120px;
+  height: 45px;
+  border: none;
+  outline: none;
+  background-color: #037de2;
+  color: #fff;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.Profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 478px;
+  height: 342px;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid transparent;
+  border-radius: 0.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%),
+    0 2px 6px 0 rgb(206 206 238 / 54%);
+  justify-content: center;
+}
+
+.Two-differnt-Parts {
+  display: flex;
+
+  gap: 2rem;
+  margin-top: 7rem;
+  width: 100%;
+  margin-left: 3.5rem;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+.main-inko-div {
+  display: flex;
+  gap: 1rem;
+}
+
+.radius-profile-pic {
+  border-radius: 50%;
+  border: 4px solid #008cff;
+  width: 100px;
+  height: 100px;
+}
+
+
+
+
+
+
+
+.btn-follow-Name {
+  width: 85px;
+  height: 37px;
+  background-color: #008cff;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.Message-folloe-btn {
+  width: 100px;
+  height: 37px;
+  background-color: #fff;
+  border: 1px solid #008cff;
+  outline: none;
+  color: #008cff;
+  border-radius: 5px;
+}
+
+.Message-folloe-btn:hover {
+  background-color: #008cff;
+  color: #fff;
+}
+
+.btn-main-components {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.hr-tag {
+  height: 1px;
+  border: 0.8px solid grey;
+  width: 100%;
+}
+
+.all-link-gaping {
+  display: flex;
+  justify-content: space-between !important;
+  width: 100%;
+}
+
+.span-item-Profile {
+  font-size: 16px;
+  color: #6c757d;
+}
+
+.Main-link-user-profile {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+}
+
+.social-icons {
+  width: 25px;
+  height: 25px;
+}
+
+.title-and-Name {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.compilers-flex-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-forms-Main-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 750px;
+  height: 442px;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0 solid transparent;
+  border-radius: 0.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px 0 rgb(218 218 253 / 65%),
+    0 2px 6px 0 rgb(206 206 238 / 54%);
+  justify-content: center;
+}
+
+.form-first-flex {
+  display: flex;
+  width: 90%;
+}
+
+.Card-flex-add {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-control-flexable {
+  display: flex;
+  width: 680px;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Full_name_form_span {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.rating-course-flex {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+  width: 95%;
+}
+
+.rating-course-span {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.add-course-span {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.progress-main-def {
+  width: 100%;
+  overflow: hidden;
+  font-size: 0.75rem;
+  background-color: #e9ecef;
+  border-radius: 0.25rem;
+  height: 5px;
+}
+
+.perent-progress-bars {
+  background-color: #008cff;
+  width: 80%;
+  border-radius: 0.25rem;
+  height: 5px;
+}
+
+@media screen and (max-width: 1920px) {
+  .user-forms-Main-div {
+    width: 90%;
+  }
+
+  .compilers-flex-data {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1660px) {
+  .user-forms-Main-div {
+    width: 90%;
+    height: 342px;
+  }
+
+  .form-control {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 884px) {
+  .form-control-flexable {
+    width: 430px;
+  }
+
+  .form-control {
+    width: 90%;
+  }
+
+  .user-forms-Main-div {
+    width: 100%;
+  }
+
+  .Profile-card {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 836px) {
+  .form-control-flexable {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 884px) {
+  .form-control-flexable {
+    width: 450px;
+  }
+
+  .Two-differnt-Parts {
+    margin-left: 3.5rem;
+    width: 81%;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .Profile-card {
+    width: 100%;
+  }
+
+  .form-control-flexable {
+    flex-direction: column;
+    gap: 0rem;
+    width: 265px;
+    align-items: flex-start;
+  }
+
+  .user-forms-Main-div {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .Two-differnt-Parts {
+    margin-right: 0;
+  }
+
+  .form-control {
+    width: 275px;
+  }
+}

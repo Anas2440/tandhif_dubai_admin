@@ -1,0 +1,424 @@
+.app.light .User_details_divv {
+  background: rgb(230, 225, 225);
+  background: linear-gradient(100deg, #ffffff 30%, #ffffff 90%, #ffffff 100%);
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: #000000 0px 20px 20px -99px, #000000 0px 20px 20px -30px,
+    #000000 0px -2px 6px 0px inset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  flex-direction: column;
+}
+
+.app.dark .User_details_divv {
+  background-color: rgb(22, 26, 50);
+  background: linear-gradient(100deg, #1c1f2e 30%, #1d2030 90%, #1b1d2a 100%);
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  box-shadow: #f3f3f3 0px 20px 20px -99px, #f1f0f3 0px 20px 20px -30px,
+    #ecebee 0px -2px 6px 0px inset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  flex-direction: column;
+}
+
+.reward-main-ico-div {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.User-mai-n-div {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  color: blue;
+}
+
+.home-By-in-da {
+  color: blue;
+  height:
+    25px;
+  width: 25px;
+}
+
+.app.dark .Admin-profile-div {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1rem;
+  background: #090c12;
+  background: linear-gradient(90deg,rgb(16, 19, 28) 0%, #161c29 50%, #141a26 100%);
+  padding: 0.5rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  width: 100%;
+
+}
+
+.app.light .Admin-profile-div {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 1rem;
+  background-color: rgb(255, 255, 255);
+  box-shadow: #000000 0px 20px 20px -99px, #000000 0px 20px 20px -30px, #000000 0px -2px 6px 0px inset;
+  padding: 0.5rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+  width: 100%;
+
+}
+
+.app.light .login-button-edit-pro {
+  display: block;
+  width: 300px;
+  font-weight: bold;
+  background-color: rgb(246, 204, 79);
+  color: rgb(0, 0, 0);
+  padding-block: 15px;
+  /* margin: 20px auto; */
+  border-radius: 20px;
+  /* box-shadow: rgb(253, 146, 146) 0px 20px 10px -15px; */
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.app.light .login-button-edit-pro:hover {
+  transform: scale(1.03);
+  box-shadow: rgb(0, 0, 0) 0px 23px 10px -20px;
+}
+
+.app.dark .login-button-edit-pro {
+  display: block;
+  width: 300px;
+  font-weight: bold;
+  background-color: rgb(246, 204, 79);
+  color: rgb(0, 0, 0);
+  padding-block: 15px;
+  /* margin: 20px auto; */
+  border-radius: 20px;
+  /* box-shadow: rgb(253, 146, 146) 0px 20px 10px -15px; */
+  border: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.app.dark .login-button-edit-pro:hover {
+  transform: scale(1.03);
+  box-shadow: rgb(0, 0, 0) 0px 23px 10px -20px;
+}
+
+.login-button-edit-pro:active {
+  transform: scale(0.95);
+  box-shadow: rgb(253, 155, 155) 0px 15px 10px -10px;
+}
+
+
+
+
+.FaHome-main-ico-div {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+
+.app.dark .Home-mai-n-div {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(209, 209, 209);
+}
+
+.app.dark .Order-history-span {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(190, 190, 190);
+}
+
+.app.light .Order-history-span {
+  font-size: 24px;
+  font-weight: 700;
+  color: rgb(0, 0, 0);
+}
+
+.app.light .Home-mai-n-div {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+.Admin_photo_main_spann {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Profile-ico-in-da {
+  height:
+    25px;
+  width: 25px;
+color: rgb(246, 204, 79);
+}
+
+.app.dark .home-ico-in-da {
+  color: #bbbbbc;
+  height: 25px;
+  width: 25px;
+}
+
+.app.light .home-ico-in-da {
+  color: #000000;
+  height: 25px;
+  width: 25px;
+}
+
+.Profile-mai-n-div {
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(246, 204, 79);
+}
+
+.Profile-main-ico-div {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+
+}
+
+.app.dark .tea-Admin-profile {
+  width: 100%;
+  position: relative;
+  top: -3rem;
+  /* align-items: center; */
+  /* margin-top: 1rem; */
+  gap: 5rem;
+  display: flex;
+  background-color: rgb(22, 26, 50);
+  background: linear-gradient(100deg, #1c1f2e 30%, #1d2030 90%, #1b1d2a 100%);
+  /* height: 90%; */
+  border-radius: 10px;
+  box-shadow: #ffffff 0px 20px 20px -99px, #ffffff 0px 20px 20px -30px,
+    #ffffff 0px -2px 6px 0px inset;
+  padding: 2rem;
+}
+
+.app.light .tea-Admin-profile {
+  width: 100%;
+  position: relative;
+  top: -3rem;
+  /* align-items: center; */
+  /* margin-top: 1rem; */
+  gap: 5rem;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  /* height: 90%; */
+  border-radius: 10px;
+
+  box-shadow: #000000 0px 20px 20px -99px, #000000 0px 20px 20px -30px,
+    #000000 0px -2px 6px 0px inset;
+  padding: 2rem;
+
+}
+
+.Main-profil-e-n {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  width: 100%;
+}
+
+.Main-div-crum-good {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.User_profile_name_eail {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.Admin_photo_main_imgg {
+  border-radius: 50%;
+  object-fit: cover;
+  top: -5rem;
+  position: relative;
+  left: 2rem;
+  width: 150px;
+  height: 150px;
+  box-shadow: 0 2px 10px 0 rgb(218 218 253 / 65%),
+    0 2px 10px 0 rgb(206 206 238 / 54%);
+
+}
+
+.fullName-officebanner-div {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.app.dark .User_profile_name_spannn {
+  font-size: 19px;
+  font-weight: 600;
+  color: rgb(206, 206, 206);
+}
+
+.app.light .User_profile_name_spannn {
+  font-size: 19px;
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+}
+
+
+.app.dark .Sec_name_spannn {
+  font-size: 19px;
+  color: rgb(188, 188, 188);
+  /* font-weight: 600; */
+}
+
+.app.light .Sec_name_spannn {
+  font-size: 19px;
+  color: white;
+  /* font-weight: 600; */
+}
+
+.Edit-Profile-navi-div {
+  /* width: 100%; */
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+
+}
+
+.Profile-main-profile {
+  width: 311px;
+  height: 45px;
+  border-radius: 19px;
+  /* background: #00cffd; */
+  background: rgb(230, 225, 225);
+  background-color: #7B58D9;
+  margin-top: 2rem;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+
+.Edit_Admin_button {
+  width: 100px;
+  height: 40px;
+  border-radius: 6px;
+  background-color: white;
+  border: 2px solid blue;
+  color: blue;
+  /* border: none; */
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.Category-btn {
+  color: white;
+  background-color: blue;
+  border-radius: 20px;
+  width: 200px;
+  height: 45px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Edit_Admin_button:hover {
+  background-color: blue;
+  color: white;
+  transition: all 0.3s ease-out;
+}
+
+
+@media screen and (max-width: 884px) {
+
+  .tea-Admin-profile {
+    width: 100%;
+  }
+
+  .second-div {
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .tea-Admin-profile {
+    width: 100%;
+  }
+
+  .Admin-profile-div {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}
+
+
+@media screen and (max-width: 500px) {
+  .second-div {
+    width: 100% !important;
+    padding: 1rem !important;
+  }
+
+  .all-input-areya {
+    /* width: 100% !important; */
+  }
+}
+
+@media screen and (max-width: 428px) {
+
+  .tea-Admin-profile {
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+    gap: 2rem;
+  }
+
+  .User_profile_name_spannn {
+    font-size: 16px;
+  }
+
+  .User_details_divv {
+    padding: 1rem;
+  }
+
+  .Profile-main-profile {
+    width: 100%;
+  }
+
+  .second-div {
+    width: 100% !important;
+    padding: 1rem !important;
+  }
+
+  .Update-bt-main-profile {
+    width: 100% !important;
+  }
+
+
+}

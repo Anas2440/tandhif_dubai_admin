@@ -1,0 +1,307 @@
+.tea-Admin-profile-user-lit {
+  align-items: center;
+  gap: 5rem;
+  display: flex;
+  background-color: #f7b4ae;
+  /* height: 90%; */
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  padding: 2rem;
+}
+
+.make-ico-and-imge {
+  height: 150px;
+  width: 200px;
+  object-fit: contain;
+}
+
+.Main-user-Deee {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+
+.card {
+  width: 230px;
+  background: white;
+  padding: .4em;
+  border-radius: 6px;
+}
+
+.card-image {
+  background-color: rgb(236, 236, 236);
+  width: 100%;
+  height: 130px;
+  border-radius: 6px 6px 0 0;
+  object-fit: cover;
+}
+
+.profile_pic-user-p {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card-image:hover {
+  transform: scale(0.98);
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(63, 121, 230);
+  padding: 10px 7px 0;
+}
+
+.category:hover {
+  cursor: pointer;
+}
+
+.heading {
+  font-weight: 600;
+  color: rgb(88, 87, 87);
+  padding: 7px;
+}
+
+.heading:hover {
+  cursor: pointer;
+}
+
+.author {
+  color: gray;
+  font-weight: 400;
+  font-size: 11px;
+  padding-top: 20px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.name:hover {
+  cursor: pointer;
+}
+
+.Main-card-ND-USER-D {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.Main-car-svg-ico {
+  height: 600px;
+  width: 600px;
+}
+
+.Main-car-div-de {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.make-Name-de {
+  display: flex;
+  flex-direction: column;
+  /* width: 100%; */
+  align-items: center;
+  justify-content: center;
+}
+
+.audi-name-span {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.Car-make-detil-p {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.Line-div {
+  width: 100%;
+  height: 1px;
+  border: 1px solid #FFB612;
+}
+
+.Main-car-detail-all-img {
+  height: 100px;
+  width: 200px;
+  border-radius: 8px;
+}
+
+.Min-img-sdiv {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1rem;
+
+}
+
+.Main-detail-all {
+  display: flex;
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+.Main-input-sem {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.Main-div-in-deee {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+.Main-x {
+  border-bottom: 2px solid #FFB612;
+  gap: 1rem;
+  display: flex;
+  /* margin-top: 1rem; */
+
+}
+
+.Main-user-and-car-detail {
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.feature-main-img {
+  height: 50px;
+  width: 50px;
+}
+
+.Main-feature-div {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.Maincar_features_div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem; */
+}
+
+.Main-show-i {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.Main_zero_to_hundred {
+  font-size: 17px;
+  font-weight: 600;
+
+}
+
+.User_details_divv-Car {
+  background: rgb(230, 225, 225);
+  background: linear-gradient(100deg, #f31b08 30%, #f31b08 90%, #f31b08 100%);
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: #f3f3f3 0px 20px 20px -99px, #f1f0f3 0px 20px 20px -30px,
+    #ecebee 0px -2px 6px 0px inset;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  flex-direction: column;
+}
+
+
+.User_profile_name_sec-main-sec {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.Main-detail-in-api {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+}
+
+.Detail_profile_name_eail {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+
+.Main-itm-in-details {
+  width: 50%;
+  align-items: center;
+  gap: 5rem;
+  display: flex;
+  background-color: #f7b4ae;
+  /* height: 90%; */
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  padding: 2rem;
+}
+
+
+@media screen and (max-width: 823px) {
+  .Main-detail-all {
+    flex-direction: column;
+  }
+
+  .Min-img-sdiv {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Main-itm-in-details {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .Main-detail-in-api {
+    flex-direction: column;
+  }
+
+  .Main-card-ND-USER-D {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Main-div-in-deee {
+    flex-direction: column;
+    /* align-items: center; */
+  }
+}
+
+
+@media screen and (max-width: 428px) {
+  .Main-detail-in-api {
+    flex-direction: column;
+  }
+
+  .Main-itm-in-details {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .tea-Admin-profile-user-lit {
+    justify-content: center;
+  }
+}

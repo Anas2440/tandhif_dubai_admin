@@ -1,0 +1,24 @@
+.radius-car {
+    height: 100px;
+    width: 100px;
+    border: 1px solid rgb(192, 191, 191);
+    border-radius: 7px;
+}
+
+.Name-follw-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.IoMdClose-and-span-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.Main-div-and-currsar {
+    cursor: pointer;
+}
