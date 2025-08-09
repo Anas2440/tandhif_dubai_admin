@@ -550,3 +550,19 @@ input:-webkit-autofill:active {
 
   }
 }
+
+
+@media screen and (max-width: 428px) {
+  .app.dark .sub_main_div{
+    height: 100%;
+    width: 100%;
+  }
+  .form_div{
+  height: 80%;  
+padding-bottom: 1rem;
+  }
+  .Main-login-bg-img {
+    width: 90%;
+
+  }
+}
