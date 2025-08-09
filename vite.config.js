@@ -3,7 +3,10 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/tandhif_Dubai/', // yeh tumhara live sub-path hai
+  base: '/tandhif_Dubai/',
+  build: {
+    chunkSizeWarningLimit: 1600, // default 500 KB
+  }
 })
   
 
