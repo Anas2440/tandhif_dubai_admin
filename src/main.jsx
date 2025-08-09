@@ -8,7 +8,7 @@ import { ToastContainer } from "react-toastify";
 import { BrowserRouter } from "react-router-dom";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename="/RealState_admin/">
+    <BrowserRouter basename="/tandhif_Dubai/">
       <App />
       <ToastContainer />
     </BrowserRouter>

@@ -1,9 +1,9 @@
 {
   "name": "ThisBooked",
-  "homepage": "https://aminsofttech.co/RealState_admin/",
+
   "private": true,
   "version": "0.0.0",
-  "proxy": "https://aminsofttech.co/RealState_admin/",
+
   "type": "module",
   "scripts": {
     "dev": "vite --host",
